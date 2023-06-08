@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drag and Drop Example</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+
+</head>
+<body>
+  <div class="container">
+    <h1>Drag and Drop Example</h1>
+
+    <div class="flex-container">
+      <div class="left-container">
+        <h2>Container 1</h2>
+        <div class="item" draggable="true">Item 1</div>
+        <div class="item" draggable="true">Item 2</div>
+        <div class="item" draggable="true">Item 3</div>
+      </div>
+
+      <div class="right-container">
+        <h2>Container 2</h2>
+      </div>
+    </div>
+
+    <div class="reset-container">
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
